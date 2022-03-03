@@ -1,0 +1,11 @@
+version: '3'
+services:
+  python3:
+    restart: always
+    build: .
+    container_name: 'python-ansible'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ~/git/:/root/git
+      - ~/.ssh:/root/.ssh
