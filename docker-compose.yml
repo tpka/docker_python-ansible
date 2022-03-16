@@ -9,3 +9,4 @@ services:
     volumes:
       - ~/git/:/root/git
       - ~/.ssh:/root/.ssh
+    privileged: true
