@@ -7,7 +7,7 @@ ENV LC_ALL en_US.UTF-8
 
 # Update apt cache and install applications
 RUN apt-get update; \
-    apt install -y git
+    apt install -y git dnsutils iputils-ping net-tools
 
 # Update python pip and install modules
 RUN pip install --upgrade pip; \
