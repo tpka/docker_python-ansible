@@ -14,12 +14,12 @@ This can be useful for administrating VMware platform by ansible.
 - to build container and execute bash in the container
 ```
 docker compose up -d --build
-docker exec -it python-ansible bash
+docker exec -it py-ansible bash
 ```
 - to stop & delete container
 ```
-docker stop python-ansible
-docker rm  python-ansible
+docker stop py-ansible
+docker rm  py-ansible
 
 OR 
 
