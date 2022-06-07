@@ -1,5 +1,5 @@
 # Using python image
-FROM python:3.9.10
+FROM python:3.10.4
 
 # Set language
 ENV LANG en_US.UTF-8
@@ -13,6 +13,7 @@ RUN apt-get update; \
 RUN pip install --upgrade pip; \
     pip install --upgrade setuptools; \
 # ansible==5.4.*' includes ansible [core 2.12.*]
-    pip install 'ansible==5.4.*'; \
+# 5.x Changelogs: https://github.com/ansible-community/ansible-build-data/blob/main/5/CHANGELOG-v5.rst
+    pip install 'ansible==5.8.*'; \
 # pyvmoni is python SDK to manage VMware ESXi & vCenter
     pip install pyvmomi
