@@ -3,7 +3,7 @@ services:
   python3:
     restart: always
     build: .
-    container_name: 'python-ansible'
+    container_name: 'py-ansible'
     working_dir: '/root/'
     tty: true
     volumes:
