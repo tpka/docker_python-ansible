@@ -1,5 +1,5 @@
 # Using python image
-FROM python:3.10.4
+FROM python:3.11.0
 
 # Set language
 ENV LANG en_US.UTF-8
