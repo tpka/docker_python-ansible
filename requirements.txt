@@ -1,0 +1,9 @@
+# Ansible
+# ansible==5.10.*' includes ansible [core 2.12.*]
+# ansible core release: https://docs.ansible.com/ansible/latest/reference_appendices/release_and_maintenance.html
+# 5.x Changelogs: https://github.com/ansible-community/ansible-build-data/blob/main/5/CHANGELOG-v5.rst
+ansible==5.10.*
+
+# Python packages
+setuptools==67.6.1              # https://github.com/pypa/setuptools/releases
+pyvmomi                         # Used by Ansible to talk to the VMware vSphere API.
