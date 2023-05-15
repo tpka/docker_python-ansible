@@ -4,8 +4,8 @@ This can be useful for administrating VMware platform by ansible.
 
 ## Requiremt:
 - [Docker Desktop](https://docs.docker.com/engine/install/)
-- working directories below are included in docker-compose.yml. Please modify if needed(or create link :) 
-    - ~/git
+- working directories below are included in docker-compose.yml. Please modify if needed(or create symbolic link :) 
+    - ~/code
     - ~/.ssh
 
 
